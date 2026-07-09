@@ -1,0 +1,8 @@
+name: Rainforest
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Hola my frnd, github actions!"
