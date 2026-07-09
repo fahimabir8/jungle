@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: greet
         run: echo "Hola my frnd, github actions!"
-
-  needs: [say-hello]
+        
   original-work:
+    needs: [say-hello]
     runs-on: ubuntu-latest
     steps:
       - name: Check out this repo
